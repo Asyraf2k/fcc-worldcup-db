@@ -67,3 +67,5 @@ chmod +x insert_data.sh
 ./querie.sh
 ./queries.sh
 ./queries.sh
+git commit -m "done"
+git add .
