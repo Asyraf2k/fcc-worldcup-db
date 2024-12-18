@@ -44,3 +44,26 @@ git push -u origin main
 git push -u origin main
 git commit -m "before verification "
 git add .
+git branch -M main
+git add insert_data.sh queries.sh README.md worldcup.sql
+git add insert_data.sh queries.sh README.md worldcup.sql
+git commit -m "before verification"
+git push origin main
+git push origin main
+git remote set-url origin https://github.com/Asyraf2k/learn-world-cup-database.git
+git remote -v
+git remote -v
+git remote set-url origin https://github.com/Asyraf2k/fcc-worldcup-db.git
+git remote -v
+git push origin main
+When you run your insert_data.sh script, it should add each unique team to the teams table. There should be 24 rows
+psql -U freecodecamp -d worldcup
+chmod +x insert_data.sh
+./insert_data.sh
+./queries.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./querie.sh
+./queries.sh
+./queries.sh
